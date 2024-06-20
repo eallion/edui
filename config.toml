@@ -2,9 +2,9 @@ theme = "webstack"
 version = "23.01.01"
 
 # 首页网址
-baseURL = "https://edui123.com"
+baseURL = "https://123.qinzheyu.com"
 # 标题
-title = "Edui123.com"
+title = "123.qinzheyu.com"
 
 [permalinks]
   posts = "/:filename/"
@@ -16,8 +16,15 @@ title = "Edui123.com"
     cdn = "https://cdn.jsdelivr.net/gh/lmm214/edui@gh-pages"
     # 开启今日诗词
     jinrishici = "true"
-    # 开启访问量统计
-    busuanzi = "true"
+    # 网站上线时间
+    starting = "2020"
+    # 开启卜算子访问量统计
+    busuanzi = "false"
+    # 开启 Umami 统计
+    [params.umami]
+      enable = false
+      umiId = "65a1e3d9-dd6d-4b1e-ba81-cbc5f92ed132"
+      umiToken = "o7UpYT1CFrJwL0lmIOY2IzKz23jJdQ3S/gVJJwlK9a+rNtJjXB/7sfEEKXfODAGTXe+d0/wE0tjib+iOZ1eo864qvspZBnt0bzO1edvhnHI6pZ7STLG/8OqJFoJEez0zUvme0XdkYHS+arEptgK0WXijkB2xmfEtD/2lfR5aLwY4QOjmCN+ADzt9TVdNV+bKfirH2s8fKvzcQEKxUCqXxDNMHPzRrHwyEGqv0GZ8CwQqTqL5hdfGsApq9p5XX19X4eaurjFFeBBAjPXu51stmCc82iBkqNhB6y7qT6xHdONqmoaz85gKVPgt/KAaNNIrx+ydW87DbmRi3XTJqj8J4bkgDcLqiV6Mc9UoWZCwf+UUvOtkY6vWwBCRV4Zd4YuFNiUNfw6izIg1Psj+Jjyej4w2oKABSVdrEWLFAL6bhkMzSQLlsl2imzfPMdw="
 
 [markup]
   [markup.goldmark]
